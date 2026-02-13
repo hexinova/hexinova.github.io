@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BloxProducts - Premium Game Enhancements</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-pill">
+            <a href="#" class="nav-link active">home</a>
+            <a href="https://hexinova.cc/discord" class="nav-link" target="_blank" rel="noopener noreferrer">discord</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Filter Section -->
+        <section class="filter-section">
+            <div class="filter-tabs">
+                <!-- Platform Filters -->
+                <button class="filter-btn icon-btn active" data-filter="all" title="All Products">
+                    <span class="filter-text">all</span>
+                </button>
+                <button class="filter-btn icon-btn" data-filter="windows" title="Windows">
+                    <img src="https://bloxproducts.com/assets/images/windows.png" alt="Windows" class="filter-icon">
+                </button>
+                <button class="filter-btn icon-btn" data-filter="android" title="Android">
+                    <img src="https://bloxproducts.com/assets/images/android.png" alt="Android" class="filter-icon">
+                </button>
+                <button class="filter-btn icon-btn" data-filter="macos" title="MacOS">
+                    <img src="https://bloxproducts.com/assets/images/mac.png" alt="MacOS" class="filter-icon">
+                </button>
+                
+                <!-- Category Filters -->
+                <button class="filter-btn" data-filter="executor">executor</button>
+                <button class="filter-btn" data-filter="external">external</button>
+                <button class="filter-btn" data-filter="serverside">serverside</button>
+                
+                <!-- Price Range Dropdown -->
+                <select class="filter-dropdown" id="priceRange">
+                    <option value="all">all prices</option>
+                    <option value="0-10">under $10</option>
+                    <option value="10-20">$10 - $20</option>
+                    <option value="20-30">$20 - $30</option>
+                    <option value="30+">$30+</option>
+                </select>
+                
+                <!-- Price Sort Dropdown -->
+                <select class="filter-dropdown" id="priceSort">
+                    <option value="asc">price: low to high</option>
+                    <option value="desc">price: high to low</option>
+                </select>
+            </div>
+        </section>
+
+        <!-- Products Grid -->
+        <section class="products-container" id="productsContainer">
+            <!-- Products will be dynamically loaded here -->
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
