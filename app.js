@@ -7,7 +7,7 @@ const productData = {
             "items": [
                 {
                     "name": "Volt 7 Days",
-                    "purchase": "https://stealthpay.io/cat/volt-week-key",
+                    "purchase": "https://stealthpay.io/cat/volt-week-key?r=nick",
                     "price": 5.39,
                     "lifetime": false,
                     "subscriptionPeriod": "7 Days",
@@ -22,7 +22,7 @@ const productData = {
                 },
                 {
                     "name": "Volt 30 Days",
-                    "purchase": "https://stealthpay.io/cat/volt-month-key",
+                    "purchase": "https://stealthpay.io/cat/volt-month-key?r=nick",
                     "price": 17.99,
                     "lifetime": false,
                     "subscriptionPeriod": "30 Days",
@@ -37,7 +37,7 @@ const productData = {
                 },
                 {
                     "name": "Volt 90 Days",
-                    "purchase": "https://stealthpay.io/cat/volt-quarterly-key",
+                    "purchase": "https://stealthpay.io/cat/volt-quarterly-key?r=nick",
                     "price": 44.99,
                     "lifetime": false,
                     "subscriptionPeriod": "90 Days",
@@ -58,7 +58,7 @@ const productData = {
             "items": [
                 {
                     "name": "Wave 7 Days",
-                    "purchase": "https://stealthpay.io/cat/wave-week-key",
+                    "purchase": "https://stealthpay.io/cat/wave-week-key?r=nick",
                     "price": 5.39,
                     "lifetime": false,
                     "subscriptionPeriod": "7 Days",
@@ -73,7 +73,7 @@ const productData = {
                 },
                 {
                     "name": "Wave 30 Days",
-                    "purchase": "https://stealthpay.io/cat/wave-month-key",
+                    "purchase": "https://stealthpay.io/cat/wave-month-key?r=nick",
                     "price": 17.09,
                     "lifetime": false,
                     "subscriptionPeriod": "30 Days",
@@ -94,7 +94,7 @@ const productData = {
             "items": [
                 {
                     "name": "Lifetime",
-                    "purchase": "https://stealthpay.io/cat/potassium",
+                    "purchase": "https://stealthpay.io/cat/potassium?r=nick",
                     "price": 20.69,
                     "lifetime": true,
                     "device": "https://bloxproducts.com/assets/images/windows.png",
@@ -114,7 +114,7 @@ const productData = {
             "items": [
                 {
                     "name": "30 Days",
-                    "purchase": "https://stealthpay.io/cat/serotonin-month",
+                    "purchase": "https://stealthpay.io/cat/serotonin-month?r=nick",
                     "price": 8.54,
                     "lifetime": false,
                     "subscriptionPeriod": "30 Days",
@@ -129,7 +129,7 @@ const productData = {
                 },
                 {
                     "name": "90 Days",
-                    "purchase": "https://stealthpay.io/cat/serotonin-90d",
+                    "purchase": "https://stealthpay.io/cat/serotonin-90d?r=nick",
                     "price": 20.69,
                     "lifetime": false,
                     "subscriptionPeriod": "90 Days",
@@ -150,7 +150,7 @@ const productData = {
             "items": [
                 {
                     "name": "Lifetime",
-                    "purchase": "https://stealthpay.io/cat/severe-lifetime-key",
+                    "purchase": "https://stealthpay.io/cat/severe-lifetime-key?r=nick",
                     "price": 17.99,
                     "lifetime": true,
                     "device": "https://bloxproducts.com/assets/images/windows.png",
@@ -170,7 +170,7 @@ const productData = {
             "items": [
                 {
                     "name": "7 Days",
-                    "purchase": "https://stealthpay.io/cat/rbxcli-weekly",
+                    "purchase": "https://stealthpay.io/cat/rbxcli-weekly?r=nick",
                     "price": 3.59,
                     "lifetime": false,
                     "subscriptionPeriod": "7 Days",
@@ -185,7 +185,7 @@ const productData = {
                 },
                 {
                     "name": "30 Days",
-                    "purchase": "https://stealthpay.io/cat/rbxcli-monthly",
+                    "purchase": "https://stealthpay.io/cat/rbxcli-monthly?r=nick",
                     "price": 7.19,
                     "lifetime": false,
                     "subscriptionPeriod": "30 Days",
@@ -206,7 +206,7 @@ const productData = {
             "items": [
                 {
                     "name": "Lifetime",
-                    "purchase": "https://stealthpay.io/cat/ronin",
+                    "purchase": "https://stealthpay.io/cat/ronin?r=nick",
                     "price": 8.63,
                     "lifetime": true,
                     "device": "https://bloxproducts.com/assets/images/windows.png",
@@ -226,7 +226,7 @@ const productData = {
             "items": [
                 {
                     "name": "Lifetime",
-                    "purchase": "https://stealthpay.io/cat/matcha",
+                    "purchase": "https://stealthpay.io/cat/matcha?r=nick",
                     "price": 8.99,
                     "lifetime": true,
                     "device": "https://bloxproducts.com/assets/images/windows.png",
@@ -249,7 +249,7 @@ const productData = {
                     "items": [
                         {
                             "name": "Cryptic 30 Days",
-                            "purchase": "https://stealthpay.io/cat/cryptic-30-days",
+                            "purchase": "https://stealthpay.io/cat/cryptic-30-days?r=nick",
                             "price": 4.49,
                             "lifetime": false,
                             "subscriptionPeriod": "30 Days",
@@ -264,7 +264,7 @@ const productData = {
                         },
                         {
                             "name": "Cryptic 90 Days",
-                            "purchase": "https://stealthpay.io/cat/cryptic-90-days",
+                            "purchase": "https://stealthpay.io/cat/cryptic-90-days?r=nick",
                             "price": 8.99,
                             "lifetime": false,
                             "subscriptionPeriod": "90 Days",
@@ -279,7 +279,7 @@ const productData = {
                         },
                         {
                             "name": "Cryptic Lifetime",
-                            "purchase": "https://stealthpay.io/cat/cryptic-lifetime",
+                            "purchase": "https://stealthpay.io/cat/cryptic-lifetime?r=nick",
                             "price": 21.59,
                             "lifetime": true,
                             "device": "https://bloxproducts.com/assets/images/android.png",
@@ -297,7 +297,7 @@ const productData = {
                     "items": [
                         {
                             "name": "Cryptic 7 Days",
-                            "purchase": "https://stealthpay.io/cat/cryptic-windows-weekly",
+                            "purchase": "https://stealthpay.io/cat/cryptic-windows-weekly?r=nick",
                             "price": 4.49,
                             "lifetime": false,
                             "subscriptionPeriod": "7 Days",
@@ -312,7 +312,7 @@ const productData = {
                         },
                         {
                             "name": "Cryptic 30 Days",
-                            "purchase": "https://stealthpay.io/cat/cryptic-windows-monthly",
+                            "purchase": "https://stealthpay.io/cat/cryptic-windows-monthly?r=nick",
                             "price": 16.19,
                             "lifetime": false,
                             "subscriptionPeriod": "30 Days",
@@ -327,7 +327,7 @@ const productData = {
                         },
                         {
                             "name": "Cryptic 90 Days",
-                            "purchase": "https://stealthpay.io/cat/cryptic-windows-90-days",
+                            "purchase": "https://stealthpay.io/cat/cryptic-windows-90-days?r=nick",
                             "price": 35.99,
                             "lifetime": false,
                             "subscriptionPeriod": "90 Days",
@@ -350,7 +350,7 @@ const productData = {
             "items": [
                 {
                     "name": "Standard",
-                    "purchase": "https://stealthpay.io/cat/aureus-standard",
+                    "purchase": "https://stealthpay.io/cat/aureus-standard?r=nick",
                     "price": 13.49,
                     "lifetime": true,
                     "device": "https://bloxproducts.com/assets/images/alldevices.png",
@@ -364,7 +364,7 @@ const productData = {
                 },
                 {
                     "name": "Premium",
-                    "purchase": "https://stealthpay.io/cat/aureus-premium",
+                    "purchase": "https://stealthpay.io/cat/aureus-premium?r=nick",
                     "price": 44.99,
                     "lifetime": true,
                     "device": "https://bloxproducts.com/assets/images/alldevices.png",
@@ -384,7 +384,7 @@ const productData = {
             "items": [
                 {
                     "name": "Standard",
-                    "purchase": "https://stealthpay.io/cat/exoliner-standard",
+                    "purchase": "https://stealthpay.io/cat/exoliner-standard?r=nick",
                     "price": 8.99,
                     "lifetime": true,
                     "device": "https://bloxproducts.com/assets/images/alldevices.png",
@@ -398,7 +398,7 @@ const productData = {
                 },
                 {
                     "name": "Premium",
-                    "purchase": "https://stealthpay.io/cat/exoliner-premium",
+                    "purchase": "https://stealthpay.io/cat/exoliner-premium?r=nick",
                     "price": 35.99,
                     "lifetime": true,
                     "device": "https://bloxproducts.com/assets/images/alldevices.png",
@@ -418,7 +418,7 @@ const productData = {
             "items": [
                 {
                     "name": "MacSploit Lifetime",
-                    "purchase": "https://stealthpay.io/cat/macsploit",
+                    "purchase": "https://stealthpay.io/cat/macsploit?r=nick",
                     "price": 8.99,
                     "lifetime": true,
                     "device": "https://bloxproducts.com/assets/images/mac.png",
