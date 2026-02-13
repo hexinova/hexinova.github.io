@@ -196,6 +196,7 @@ body {
 .group-header {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-bottom: 25px;
     gap: 15px;
 }
@@ -252,9 +253,14 @@ body {
    PRODUCT CARDS GRID
    ========================================== */
 .product-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
     gap: 25px;
+    justify-content: center;
+}
+
+.product-card {
+    flex: 0 0 300px;
 }
 
 .product-card {
@@ -295,6 +301,11 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.product-card:has(.recommendation-banner) .card-header {
+    margin-top: 20px;
 }
 
 .product-name {
@@ -363,6 +374,25 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.5px;
     box-shadow: 0 0 10px rgba(168, 85, 247, 0.4);
+    animation: pulse 2s ease-in-out infinite;
+}
+
+/* Recommendation Banner */
+.recommendation-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(135deg, var(--neon-purple), var(--neon-purple-dark));
+    color: var(--text-primary);
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 14px 14px 0 0;
+    box-shadow: 0 0 15px rgba(168, 85, 247, 0.5);
     animation: pulse 2s ease-in-out infinite;
 }
 

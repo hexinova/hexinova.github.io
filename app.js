@@ -499,11 +499,24 @@ function createProductCard(item) {
     const card = document.createElement('div');
     card.className = 'product-card';
     
+    // Determine recommendation badge
+    let recommendationBadge = '';
+    if (!item.lifetime) {
+        if (item.subscriptionPeriod === '30 Days') {
+            recommendationBadge = 'RECOMMENDED';
+        } else if (item.subscriptionPeriod === '7 Days') {
+            recommendationBadge = 'STARTING OUT';
+        }
+    } else if (item.name.toLowerCase().includes('premium')) {
+        recommendationBadge = 'RECOMMENDED';
+    }
+    
     // Extract badges from features
     const badges = item.features.filter(f => f.startsWith('*'));
     const regularFeatures = item.features.filter(f => !f.startsWith('*'));
     
     card.innerHTML = `
+        ${recommendationBadge ? `<div class="recommendation-banner">${recommendationBadge}</div>` : ''}
         <div class="card-header">
             <h3 class="product-name">${item.name}</h3>
             <img src="${item.device}" alt="Device" class="device-icon">
